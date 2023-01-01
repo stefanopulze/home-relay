@@ -31,7 +31,7 @@ GET /status
 GET /relay/0
 
 {
-    ison: true
+    "ison": true
 }
 ```
 
