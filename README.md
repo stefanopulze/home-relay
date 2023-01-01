@@ -46,5 +46,5 @@ POST /relay/0
 }
 ```
 
-*turn* can be: "on", "off" or "toggle"
+*turn* can be: "on", "off" or "toggle"  
 *timer* is a optional number for a one-shot flip-back timer in seconds
