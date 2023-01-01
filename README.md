@@ -31,18 +31,20 @@ GET /status
 GET /relay/0
 
 {
-    ison: true|false
+    ison: true
 }
 ```
+
 
 **Change relay status**
 ```http 
 POST /relay/0
 
 {
-    "turn": "on"|"off"|"toggle",
+    "turn": "on",
     "timer": 1000
 }
 ```
 
-*timer* is a number for a one-shot flip-back timer in seconds
+*turn* can be: "on", "off" or "toggle"
+*timer* is a optional number for a one-shot flip-back timer in seconds
