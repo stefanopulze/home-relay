@@ -1,0 +1,6 @@
+#define WIFI_SSID "your_wifi_ssid"
+#define WIFI_PASS "your_wifi_super_secure_password"
+
+// #define OTA_PASS "your_ota_password_if_you_want"
+
+#define DEFAULT_DURATION 150
