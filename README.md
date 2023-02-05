@@ -49,7 +49,7 @@ POST /relay/0
 *turn* can be: "on", "off" or "toggle"  
 *timer* is a optional number for a one-shot flip-back timer in seconds
 
-**Error**
+**Error**  
 If you call a rest endpoint with malformed data or missing information, the sever
 respond with a error message.
 
